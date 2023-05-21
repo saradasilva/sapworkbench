@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "sapworkbench",
   siteMetadata: {
     title: `SAP Workbench`,
     author: {
@@ -117,7 +116,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `/me.jpeg`, // This path is relative to the root of the site.
+        icon: `${__dirname}/static/me.jpeg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
